@@ -21,7 +21,7 @@ easyImgPreloader(images,callback,timeout);
 | -------- | ---------------- | ------- | -------- | ------------------------------- |
 | images   | Array            | []      | true     | Image list                      |
 | callback | (progress) => {} | -       | -        | The loaded complete             |
-| timeout  | Init             | 5000    | -        | The load timeout for each image |
+| timeout  | Int             | 5000    | -        | The load timeout for each image |
 
 ### Examples
 
