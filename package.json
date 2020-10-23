@@ -1,0 +1,38 @@
+{
+  "name": "imgpreloader",
+  "version": "1.0.0",
+  "description": "Image preloader",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run babel && npm run uglify",
+    "babel": "babel src/index.js -o dist/index.js",
+    "uglify": "uglifyjs dist/index.js -o dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacez/imgPreloader.git"
+  },
+  "keywords": [
+    "image",
+    "preloader"
+  ],
+  "author": "pace_zhong@foxmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pacez/imgPreloader/issues"
+  },
+  "homepage": "https://github.com/pacez/imgPreloader#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "uglify-es": "^3.3.9"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": []
+  }
+}
