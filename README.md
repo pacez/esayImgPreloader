@@ -1,4 +1,4 @@
-# imgPreloader
+# EasyImgPreloader
 Image preloader, suitable for the need to load image resources in advance of the scenario.  
 
 *tips: Image loading failure, we also identified as the loaded.*
@@ -12,7 +12,7 @@ yarn add easy-img-preloader
 
 ### Basic
 ```javascript
-imgPreloader(images,callback,timeout);
+easyImgPreloader(images,callback,timeout);
 ```
 
 ### Params
@@ -26,9 +26,9 @@ imgPreloader(images,callback,timeout);
 ### Examples
 
 ```javascript
-import imgPreloader from 'easy-img-preloader';
+import easyImgPreloader from 'easy-img-preloader';
 
-imgPreloader([
+easyImgPreloader([
     require('./p1.png'), // preload local image
     'http://www.test.com/p2.png' // preload remote image
 ],(progress)=>{
