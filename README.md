@@ -17,11 +17,11 @@ imgPreloader(images,callback,timeout);
 
 ### Params
 
-| name     | type             | default | Required |
-| -------- | ---------------- | ------- | -------- |
-| images   | Array            | []      | true     |
-| callback | (progress) => {} | -       | -        |
-| timeout  | Init             | 5000    | -        |
+| name     | type             | default | Required | Desc                            |
+| -------- | ---------------- | ------- | -------- | ------------------------------- |
+| images   | Array            | []      | true     | Image list                      |
+| callback | (progress) => {} | -       | -        | The loaded complete             |
+| timeout  | Init             | 5000    | -        | The load timeout for each image |
 
 ### Examples
 
