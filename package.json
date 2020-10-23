@@ -1,6 +1,6 @@
 {
-  "name": "img-preloader",
-  "version": "1.0.0",
+  "name": "easy-img-preloader",
+  "version": "1.0.0-alpah.1",
   "description": "Image preloader",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,8 @@
   },
   "keywords": [
     "image",
-    "preloader"
+    "preloader",
+    "image preloader"
   ],
   "author": "pace_zhong@foxmail.com",
   "license": "MIT",

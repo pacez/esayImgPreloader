@@ -3,9 +3,9 @@ Image preloader, suitable for the need to load image resources in advance of the
 
 ### Install
 ```javascript
-npm i img-preloader
+npm i easy-img-preloader
 // or
-yarn add img-preloader
+yarn add easy-img-preloader
 ```
 
 ### Basic
@@ -24,7 +24,7 @@ imgPreloader(images,callback,timeout);
 ### Examples
 
 ```javascript
-import imgPreloader from 'img-preloader';
+import imgPreloader from 'easy-img-preloader';
 
 imgPreloader([
     require('./p1.png'),
