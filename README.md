@@ -10,7 +10,7 @@ npm i easy-img-preloader
 yarn add easy-img-preloader
 ```
 
-### Basic
+### Basic Usage
 ```javascript
 easyImgPreloader(images,callback,timeout);
 ```
