@@ -1,6 +1,6 @@
 {
   "name": "easy-img-preloader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Image preloader",
   "main": "dist/index.js",
   "scripts": {
