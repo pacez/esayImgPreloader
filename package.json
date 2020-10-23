@@ -1,8 +1,8 @@
 {
   "name": "easy-img-preloader",
-  "version": "1.0.0-alpah.1",
+  "version": "1.0.1",
   "description": "Image preloader",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "npm run babel && npm run uglify",
     "babel": "babel src/index.js -o dist/index.js",
