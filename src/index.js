@@ -4,7 +4,7 @@
  * desc: 图片预加载器
  * @param images []
  * @param callback (progress) => {}
- * @param timeout init  单位 ms
+ * @param timeout int  单位 ms
  */
 
 export default (images = [], callback, timeout = 5000) => {
